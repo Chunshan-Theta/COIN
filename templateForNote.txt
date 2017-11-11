@@ -1,0 +1,17 @@
+/** @file Name
+      * @brief 函式的詳細描述，包括原理，需求，適用範圍...
+      *  
+      * @author 作者名稱 (電子郵件或員工編號)
+      * @date 更新日期 
+
+
+       
+
+      * Note template for func
+      * 
+      * @brief 
+      * @func func_out 輸出參數的描述
+      * @func func_in  輸入參數的描述
+      * @return 傳回值的意義. 
+
+*/
