@@ -6,25 +6,34 @@
 	mysql_query("set names utf8");
 
 
-    /** @file db_coin.php
-      * @brief 淘汰mysql_connet套件,改用PDO()
-      *  
-      * @author 作者名稱 (電子郵件或員工編號)
-      * @date 更新日期 
+/**
+@file Name
+    * @brief 內容簡述，包括原理，需求，適用範圍...
+    * @author 作者名稱 (電子郵件或員工編號)
+    * @date 更新日期 
+	
+	
+	* import lib
+        * @lib name      : 函數名稱
+        * @brief         : 函數簡述，包括原理，需求，適用範圍
+        * @using         : 使用說明與範例
+
+    * func
+        * @func name     : 函數名稱
+        * @brief         : 函數簡述，包括原理，需求，適用範圍
+        * @func func_in  : 輸入參數的描述
+        * @funcreturn    : 傳回值的描述與輸出格式
+
+    * main var
+        * @var name      : 變數名稱
+        * @type          : 變數類型
+        * @brief         : 變數簡述，包括原理，需求，適用範圍
+        * @Defined by    : 變數定義元件
 
 
-       
-
-      * Note template for func
-      * 
-      * @brief 
-      * @func func_out 輸出參數的描述
-      * @func func_in  輸入參數的描述
-      * @return 傳回值的意義. 
-
-    */
+*/
 	include("error_text.php");
-    debug_console('db connect');
+        debug_console('db connect');
 
 	define('DB_PATH', '127.0.0.1'); //設定資料庫路徑
 	define('DB_NAME', 'coin'); //設定資料庫名稱
