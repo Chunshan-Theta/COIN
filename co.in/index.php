@@ -23,10 +23,10 @@
 	<div id="rightcolumn">
 		<fieldset id="login_field">
 			<form method="post">
-				<p><input type="radio" name="identity" value="T" checked/>老師
-					<input type="radio" name="identity" value="S" style="margin-left: 30px;"/>學生</p>
-				<p><label>帳號：</label><input type="text" name="account" size="20" maxlength="10"/></p>
-				<p><label>密碼：</label><input type="password" name="password" size="20" maxlength="10"/></p>
+				<p><input type="radio" name="identity" value="T" />老師
+					<input type="radio" name="identity" value="S" style="margin-left: 30px;" checked/>學生</p>
+				<p><label>帳號：</label><input type="text" name="account" size="20" maxlength="10"value="w"/></p>
+				<p><label>密碼：</label><input type="password" name="password" size="20" maxlength="10"value="w"/></p>
 				<p><label>專題類別：</label><select size="1" name="project">
 							 					<option value="science">科學專題</option>
 							 					<option value="society">社會專題</option>
